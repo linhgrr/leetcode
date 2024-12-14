@@ -20,10 +20,7 @@ public:
             x == i     && y == j - 1 ||
             x == i + 1 && y == j     ||
             x == i     && y == j + 1 
-            // x == i - 1 && y == j - 1 ||
-            // x == i - 1 && y == j + 1 ||
-            // x == i + 1 && y == j - 1 ||
-            // x == i + 1 && y == j + 1 
+            
         ) return true;
 
         return false;
