@@ -31,6 +31,7 @@ public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         n = nums.size();
         sort(nums.begin(), nums.end());
+        
         kq.push_back(vector<int>());
         Try(0, nums);
         
